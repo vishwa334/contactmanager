@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" th:replace="~{base :: parent(~{::#content},~{::title},~{})}">
+  <head>
+  
+    <title>
+      Services
+    </title>
+  </head>
+  <body>
+    <div id="content">
+      <section class="py-20 bg-white dark:bg-gray-900">
+        <div class="container mx-auto text-center">
+          <h2 class="text-3xl font-bold mb-12 animate__animated animate__fadeInUp">My Services</h2>
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="p-6 bg-gray-100 dark:bg-gray-600 rounded shadow hover:shadow-lg transition duration-300 transform hover:scale-105">
+             
+              <i class="fa-solid fa-phone text-blue-600 text-5xl mb-4"></i>
+              <h3 class="text-xl font-semibold mb-2">Calling Service</h3>
+              <p class="text-gray-600 dark:text-white">we work on calling funtion with your contact people easly, in future we use kafka,kubernates,microservices for helping you in easly connect with your contact people.</p>
+            </div>
+            <div class="p-6 bg-gray-100 dark:bg-gray-600 rounded shadow hover:shadow-lg transition duration-300 transform hover:scale-105">
+              <i class="fas fa-address-book text-blue-600 text-5xl mb-4"></i>
+              <h3 class="text-xl font-semibold mb-2">Contact Manage</h3>
+              <p class="text-gray-600 dark:text-white">you can easly manage your contact details in my application,if you want to select favorite person you can easly add it </p>
+            </div>
+            <div class="p-6 bg-gray-100 dark:bg-gray-600 rounded shadow hover:shadow-lg transition duration-300 transform hover:scale-105">
+             
+              <i class="fa-solid text-blue-600 text-5xl mb-4 fa-message"></i>
+              <h3 class="text-xl font-semibold mb-2">Messages functionalities</h3>
+              <p class="text-gray-600 dark:text-white">we work on also a messagenging for future because every person need message service, so you can easily message your contact people with mobile numbers and mail id .</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+  </body>
+</html>

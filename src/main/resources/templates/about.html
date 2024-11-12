@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html
+  lang="en"
+  th:replace="~{base :: parent(~{::#content},~{::title},~{::script})}"
+>
+  <head>
+    <title>About Page</title>
+  </head>
+  <body>
+    <div id="content">
+      <!-- Banner Section -->
+      <section class="bg-blue-600 dark:bg-gray-600 text-white py-20 animate__animated animate__fadeInDown">
+        <div class="container mx-auto text-center">
+          <h2 class="text-4xl font-bold mb-4">Welcome to Contact Manager</h2>
+          <p class="text-lg mb-8">Manage all your contacts effortlessly and securely in one place.</p>
+          
+        </div>
+      </section>
+
+      <section class="py-20 bg-white dark:bg-gray-900">
+        <div class="container mx-auto text-center">
+          <h2 class="text-3xl font-bold mb-12 animate__animated animate__fadeInUp">About Me</h2>
+          <p class="text-2xl">The Contact Manager is a web application designed to help users efficiently store, organize, and manage personal and professional contacts in one secure place. Created to be user-friendly and highly functional, it aims to simplify contact management with a clean, intuitive interface.
+            Contact Manager is designed to simplify the way you manage and organize your contacts. Built with ease-of-use and efficiency in mind, our application provides a streamlined solution for individuals and businesses to store, categorize, and retrieve contact information seamlessly. We understand the importance of staying connected, and our goal is to help you manage your contacts with confidence and ease.
+
+
+          </p>
+        </div>
+      </section>
+    
+      <!-- Features Section -->
+      <section class="py-20 bg-white dark:bg-gray-900">
+        <div class="container mx-auto text-center">
+          <h2 class="text-3xl font-bold mb-12 animate__animated animate__fadeInUp">Why Choose ContactManager</h2>
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="p-6 bg-gray-100 dark:bg-gray-600 rounded shadow hover:shadow-lg transition duration-300 transform hover:scale-105">
+              
+              <h3 class="text-xl font-semibold mb-2">Organized Contact Management</h3>
+              <p class="text-gray-600 dark:text-white">Easily categorize and search for contacts, add detailed notes, and keep all essential information in one place</p>
+            </div>
+            <div class="p-6 bg-gray-100 dark:bg-gray-600  rounded shadow hover:shadow-lg transition duration-300 transform hover:scale-105">
+             
+              <h3 class="text-xl font-semibold mb-2">User-Friendly Design</h3>
+              <p class="text-gray-600 dark:text-white">Our intuitive interface makes it simple to add, edit, and find contacts without unnecessary steps</p>
+            </div>
+            <div class="p-6 bg-gray-100 dark:bg-gray-600  rounded shadow hover:shadow-lg transition duration-300 transform hover:scale-105">
+              
+              <h3 class="text-xl font-semibold mb-2">Data Security</h3>
+              <p class="text-gray-600 dark:text-white"> We prioritize the security of your information. Our platform ensures your data is stored safely with the latest encryption and protection standards</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="py-20 bg-white dark:bg-gray-900">
+        <div class="container mx-auto text-center">
+          <h2 class="text-4xl font-bold mb-12 animate__animated animate__fadeInUp">Our Vision</h2>
+          <p class="text-2xl">We believe everyone should have a tool to manage their contacts efficiently. Whether for business or personal use, Contact Manager is here to help you stay connected and organized. In future we provide the Services Like:- Chatting with Friends,Family and provide calling functionalities for people connected easly each other
+          </p>
+        </div>
+      </section>
+    
+      <!-- Call to Action Section -->
+      <section class="bg-blue-600 dark:bg-gray-600 text-white py-20 animate__animated animate__fadeInUp">
+        <div class="container mx-auto text-center">
+          <h2 class="text-3xl font-bold mb-4">Contact Us</h2>
+          <p class="text-lg mb-8">Have questions or feedback? We'd love to hear from you! Reach out to us through our contact page for support.</p>
+          <a data-th-href="@{'/contact'}"
+             class="bg-white text-blue-600 px-6 py-3 rounded-full font-semibold hover:bg-gray-100 transition duration-300">contact page</a>
+        </div>
+      </section>
+      <!-- Footer Section -->
+      <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto text-center">
+          <p>&copy; 2024 Contact Manager. Devloped By :- Vishwakarma</p>
+          <p>Follow us on <a href="#" class="text-blue-400">Facebook</a>, <a href="#"
+                                                                             class="text-blue-400">Twitter</a>, and <a
+                  href="#" class="text-blue-400">Instagram</a>.</p>
+        </div>
+      </footer>
+    </div>
+    <script>
+      console.log("about page");
+    </script>
+    <script>
+      console.log("second about page script");
+    </script>
+  </body>
+</html>
